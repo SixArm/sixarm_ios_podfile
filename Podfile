@@ -4,12 +4,17 @@ use_frameworks!
 
 ## Language Extensions
 pod "Runes", git: "https://github.com/thoughtbot/Runes.git"  # Functional operators for map, apply, etc.
+pod "ReactiveCocoa", "3.0-alpha.3"  # Functional Reactive Programming
 
-## JSON APIs
-pod "Alamofire"  # HTTP networking
+## JSON
 pod "SwiftyJSON"  # JSON parser and handler
 pod "Argo", git: "https://github.com/thoughtbot/Argo.git"  # Functional JSON parsing
 pod "Naught", git: "https://github.com/thoughtbot/Naught.git"  # Argo options for standard function names.
+
+## Networking
+pod "Alamofire"  # HTTP networking
+pod "Moya"  # Network abstraction layer written in Swift
+pod "Moya/Reactive"  # Moya with functional reactive programming extensions
 
 ## Integrations
 pod "HockeySDK"  # HockeyApp.com SDK for iOS applications
