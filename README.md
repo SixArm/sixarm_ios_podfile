@@ -1,4 +1,4 @@
-# SixArm.com » Ruby » <br> Podfile of Cocoapods and descriptions
+# SixArm.com » iOS » <br> Podfile of Cocoapods and descriptions
 
 Docs: <http://sixarm.com/sixarm_ios_podfile/doc>
 * Repo: <http://github.com/sixarm/sixarm_ios_podfile>
